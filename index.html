@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelApp</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+<!-- Botón de subir -->
+<div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+</div>
+
+<!-- Navbar -->
+<nav>
+    <div class="navbar">
+      <div class="logo">
+        <img id="logo" src="img/logo-claro.png" alt="Logo PixelApp">
+      </div>
+      <ul class="menu">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Conócenos</a></li>
+        <li><a href="#services">Fundamentos</a></li>
+        <li><a href="#slider-equipo">Equipo</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#contacto">Contacto</a></li> <!-- Added Contact link -->
+        <div class="cancel-btn"><i class="fas fa-times"></i></div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.facebook.com/share/1F6PtCChFH/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn"><i class="fas fa-bars"></i></div>
+</nav>
+
+<!-- INICIO -->
+<section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Bienvenido A</div>
+        <div class="text-two">PixelApp</div>
+        <div class="text-three">"Diseñamos lo que tu mente imagina."</div>
+        <div class="text-four">
+          Una empresa mexicana especializada en el diseño<br>
+          y desarrollo de apps móviles personalizadas, con<br>
+          soluciones intuitivas y funcionales adaptadas<br>
+          a las necesidades y objetivos de cada cliente.
+        </div>
+      </div>
+      <div class="button">
+        <a href="Plan.html"><button>Plan de Negocios</button></a>
+      </div>
+    </div>
+</section>
+
+<!-- CONÓCENOS -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>Sobre Nosotros</span></div>
+    <div class="about-details">
+      <div class="left">
+        <img src="img/foto1.png" alt="Sobre nosotros" />
+      </div>
+      <div class="right">
+        <div class="topic">¿Quiénes Somos?</div>
+        <p>
+          Nos dedicamos al diseño y desarrollo de aplicaciones móviles completamente personalizadas. 
+          Creamos soluciones digitales funcionales, intuitivas y seguras, adaptadas a las necesidades 
+          específicas de cada cliente, ya sea para negocios, proyectos personales o instituciones.
+        </p>
+        <br><br>
+        <div class="topic">¿A qué nos dedicamos?</div>
+        <p>
+          Somos PixelApp, una empresa del sector tecnológico enfocada en brindar soluciones móviles hechas a la medida. Nos caracteriza 
+          nuestro enfoque humano y cercano, la innovación constante, y el compromiso por ofrecer productos de alta calidad con atención
+          personalizada en cada etapa del desarrollo.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNDAMENTOS + VALORES -->
+<section class="services" id="services">
+  <div class="content">
+    <div class="title"><span>Lo que nos guía</span></div>
+
+    <!-- Misión, Visión, Objetivo -->
+    <div class="boxes">
+      <div class="box">
+        <div class="icon"><i class="fas fa-desktop"></i></div>
+        <div class="topic">Misión</div>
+        <p>"Desarrollar apps móviles prácticas, adaptadas al cliente, con tecnología innovadora y un servicio confiable."</p>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fas fa-paint-brush"></i></div>
+        <div class="topic">Visión</div>
+        <p>"Ser líderes en soluciones móviles innovadoras, accesibles y funcionales, con compromiso en la atención."</p>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fas fa-chart-line"></i></div>
+        <div class="topic">Objetivo General</div>
+        <p>"Crear apps personalizadas que resuelvan necesidades específicas con funcionalidad, seguridad y atención cercana."</p>
+      </div>
+    </div>
+
+    <!-- Título de Valores -->
+    <div class="title" style="margin-top: 60px;"><span>Nuestros Valores</span></div>
+
+    <!-- Burbujas de Valores -->
+    <div class="burbuja-grid">
+      <div class="burbuja"><i class="fas fa-lightbulb"></i><p>Innovación</p><span class="tooltip-expand">Aplicamos ideas y tecnologías actuales para ofrecer soluciones móviles vanguardistas.</span></div>
+      <div class="burbuja"><i class="fas fa-heart"></i><p>Empatía</p><span class="tooltip-expand">Escuchamos y entendemos cada necesidad para crear experiencias personalizadas.</span></div>
+      <div class="burbuja"><i class="fas fa-star"></i><p>Calidad</p><span class="tooltip-expand">Entregamos productos funcionales, seguros y estéticamente bien cuidados.</span></div>
+      <div class="burbuja"><i class="fas fa-handshake"></i><p>Compromiso</p><span class="tooltip-expand">Acompañamos a nuestros clientes en cada etapa, con entrega total y responsabilidad.</span></div>
+      <div class="burbuja"><i class="fas fa-sync-alt"></i><p>Adaptabilidad</p><span class="tooltip-expand">Nos ajustamos con agilidad a cambios, retos o contextos que el proyecto requiera.</span></div>
+      <div class="burbuja"><i class="fas fa-eye"></i><p>Transparencia</p><span class="tooltip-expand">Mantenemos una comunicación clara, cercana y honesta durante todo el proceso.</span></div>
+    </div>
+  </div>
+  <br>
+</section>
+
+<!-- EQUIPO  -->
+<section id="slider-equipo">
+  <div class="contenedor-slider">
+    <h2 class="titulo-slider">Nuestro equipo</h2>
+
+    <div class="container swiper">
+      <div class="wrapper">
+        <div class="card-list swiper-wrapper">
+
+          <!-- Sofía -->
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="img/design.png" alt="Sofía Jatziri Rosales Ramos" />
+              <div class="card-tag">UX/UI</div>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Sofía Jatziri R. R.</h3>
+              <p class="card-text">Diseñadora UX/UI responsable del diseño visual y la experiencia del usuario. Crea interfaces intuitivas y funcionales con enfoque en las necesidades del cliente.</p>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="img/user-1.png" alt="Sofía" />
+                  <div class="card-profile-info">
+                    <span class="card-profile-name">Sofía Jatziri</span>
+                    <span class="card-profile-role">Diseñadora UX/UI</span>
+                  </div>
+                </div>
+                <span class="card-button">Contacto</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hannia -->
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="img/development.jpg" alt="Hannia Citlalli Ramírez Castillo" />
+              <div class="card-tag">Gestión</div>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Hannia Citlalli R. C. </h3>
+              <p class="card-text">Encargada de la documentación, pruebas de usabilidad y soporte. Asegura una comunicación fluida con el cliente y seguimiento ordenado del proyecto.</p>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="img/user-2.jpg" alt="Hannia" />
+                  <div class="card-profile-info">
+                    <span class="card-profile-name">Hannia Citlalli</span>
+                    <span class="card-profile-role">Gestión y soporte</span>
+                  </div>
+                </div>
+                <span class="card-button"> Contacto </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nacho -->
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="img/ai.jpg" alt="José Ignacio Martínez Carabarín" />
+              <div class="card-tag">CTO</div>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">José Ignacio M. C.</h3>
+              <p class="card-text">Coordinador general y CTO. Supervisa el desarrollo técnico, lidera la arquitectura de software y mantiene contacto directo con los clientes.</p>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="img/user-3.jpg" alt="Nacho" />
+                  <div class="card-profile-info">
+                    <span class="card-profile-name">José Ignacio</span>
+                    <span class="card-profile-role">CTO / Desarrollo</span>
+                  </div>
+                </div>
+                <span class="card-button">Contacto</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Edmar -->
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="img/productivity.jpg" alt="Edmar Yael Peña Díaz" />
+              <div class="card-tag">Soporte</div>
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Edmar Yael P. D.</h3>
+              <p class="card-text">Desarrollador técnico. Implementa funciones clave, realiza pruebas de calidad y mantiene el funcionamiento estable de las aplicaciones.</p>
+              <div class="card-footer">
+                <div class="card-profile">
+                  <img src="img/user-4.jpg" alt="Edmar" />
+                  <div class="card-profile-info">
+                    <span class="card-profile-name">Edmar Yael</span>
+                    <span class="card-profile-role">Desarrollo / QA</span>
+                  </div>
+                </div>
+                <span class="card-button">Contacto</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Navigation Buttons -->
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTAFOLIO  -->
+<section id="portafolio" class="mi-portafolio-unico">
+  <div class="content">
+    <br>
+    <div class="title"><span>Nuestro Portafolio</span></div>
+    
+    <!-- Hero del Portafolio -->
+    <div class="mi-portafolio-hero">
+      <div class="mi-hero-content">
+        <h2>Transformamos Ideas en Soluciones Reales</h2>
+        <p>Cada línea de código está pensada para resolver problemas específicos y mejorar la vida de nuestros usuarios.</p>
+      </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Proyecto Principal -->
+    <div class="mi-proyecto-destacado">
+      <div class="mi-proyecto-header">
+        <div class="mi-badge-destacado">Proyecto Destacado</div>
+        <h3>Mi Tienda Móvil</h3>
+        <p class="mi-subtitulo-proyecto">Sistema integral de gestión comercial para pequeños negocios</p>
+      </div>
+
+      <div class="mi-proyecto-showcase">
+        <!-- Galería de Imágenes -->
+        <div class="mi-galeria-fotos">
+          <div class="mi-imagen-grande">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_dc23ba91.jpg-ZrW9UMPnwvZl1qMz2sAluzfEJduZff.jpeg" alt="Mi Tienda Móvil - Pantalla Principal" id="miImagenPrincipal">
+            <div class="mi-overlay-imagen" onclick="abrirMiShowcase()">
+              <i class="fas fa-play-circle"></i>
+              <span>Ver Demo Interactivo</span>
+            </div>
+          </div>
+          <div class="mi-miniaturas">
+            <div class="mi-foto-mini active" onclick="cambiarMiImagen('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_dc23ba91.jpg-ZrW9UMPnwvZl1qMz2sAluzfEJduZff.jpeg', 'Dashboard Principal')">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_dc23ba91.jpg-ZrW9UMPnwvZl1qMz2sAluzfEJduZff.jpeg" alt="Dashboard">
+              <span>Dashboard</span>
+            </div>
+            <div class="mi-foto-mini" onclick="cambiarMiImagen('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_31ca9541.jpg-62BWgIhwVhu5dgdZ5nqSBHsbBJiYuZ.jpeg', 'Gestión de Inventario')">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_31ca9541.jpg-62BWgIhwVhu5dgdZ5nqSBHsbBJiYuZ.jpeg" alt="Inventario">
+              <span>Inventario</span>
+            </div>
+            <div class="mi-foto-mini" onclick="cambiarMiImagen('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_e78a6057.jpg-H8Smff0B2wfdoEs3709ufIuWK7wnsH.jpeg', 'Registro de Ventas')">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_e78a6057.jpg-H8Smff0B2wfdoEs3709ufIuWK7wnsH.jpeg" alt="Ventas">
+              <span>Ventas</span>
+            </div>
+            <div class="mi-foto-mini" onclick="cambiarMiImagen('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_0292eebf.jpg-GZPanHc3Ih2crAyPNoAcE4aEpJfRXr.jpeg', 'Agregar Productos')">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_0292eebf.jpg-GZPanHc3Ih2crAyPNoAcE4aEpJfRXr.jpeg" alt="Agregar">
+              <span>Agregar</span>
+            </div>
+            <div class="mi-foto-mini" onclick="cambiarMiImagen('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_53dd2d83.jpg-Bajfldum2PwKN0m9GTkNp7ztuFEB8N.jpeg', 'Editar Productos')">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_53dd2d83.jpg-Bajfldum2PwKN0m9GTkNp7ztuFEB8N.jpeg" alt="Editar">
+              <span>Editar</span>
+            </div>
+            <div class="mi-foto-mini" onclick="cambiarMiImagen('/images/captura-reportes.png', 'Reportes Detallados')">
+              <img src="/images/captura-reportes.png" alt="Reportes">
+              <span>Reportes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Información del Proyecto -->
+        <div class="mi-info-detalle">
+          <div class="mi-seccion-info">
+            <h4><i class="fas fa-lightbulb"></i> El Desafío</h4>
+            <p>Los pequeños comerciantes necesitaban una herramienta completa para gestionar su negocio: controlar inventario, registrar ventas y generar reportes, todo desde su dispositivo móvil sin complicaciones.</p>
+          </div>
+
+          <div class="mi-seccion-info">
+            <h4><i class="fas fa-cogs"></i> Nuestra Solución</h4>
+            <p>Desarrollamos un sistema integral que centraliza todas las operaciones comerciales en una interfaz intuitiva, con base de datos local y actualizaciones en tiempo real.</p>
+          </div>
+
+          <div class="mi-tecnologias-usadas">
+            <h4><i class="fas fa-code"></i> Stack Tecnológico</h4>
+            <div class="mi-tech-stack">
+              <span class="mi-tech-badge">Android Studio</span>
+              <span class="mi-tech-badge">Java</span>
+              <span class="mi-tech-badge">SQLite</span>
+              <span class="mi-tech-badge">Material Design</span>
+              <span class="mi-tech-badge">Kotlin</span>
+            </div>
+          </div>
+
+          <div class="mi-caracteristicas-principales">
+            <h4><i class="fas fa-star"></i> Funcionalidades Clave</h4>
+            <div class="mi-features-grid">
+              <div class="mi-feature-item">
+                <i class="fas fa-tachometer-alt"></i>
+                <div>
+                  <strong>Dashboard Inteligente</strong>
+                  <span>Resumen diario con estadísticas en tiempo real</span>
+                </div>
+              </div>
+              <div class="mi-feature-item">
+                <i class="fas fa-boxes"></i>
+                <div>
+                  <strong>Gestión de Inventario</strong>
+                  <span>Control completo con búsqueda por ID o nombre</span>
+                </div>
+              </div>
+              <div class="mi-feature-item">
+                <i class="fas fa-cash-register"></i>
+                <div>
+                  <strong>Registro de Ventas</strong>
+                  <span>Descuento automático del inventario</span>
+                </div>
+              </div>
+              <div class="mi-feature-item">
+                <i class="fas fa-chart-line"></i>
+                <div>
+                  <strong>Reportes Automáticos</strong>
+                  <span>Análisis de ventas y productos más vendidos</span>
+                </div>
+              </div>
+              <div class="mi-feature-item">
+                <i class="fas fa-bell"></i>
+                <div>
+                  <strong>Notificaciones</strong>
+                  <span>Alertas de stock bajo y resumen de actividad</span>
+                </div>
+              </div>
+              <div class="mi-feature-item">
+                <i class="fas fa-edit"></i>
+                <div>
+                  <strong>CRUD Completo</strong>
+                  <span>Crear, leer, actualizar y eliminar productos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mi-estadisticas-proyecto">
+            <div class="mi-stat-item">
+              <div class="mi-stat-number">1</div>
+              <div class="mi-stat-label">Mese de Desarrollo</div>
+            </div>
+            <div class="mi-stat-item">
+              <div class="mi-stat-number">6</div>
+              <div class="mi-stat-label">Pantallas Principales</div>
+            </div>
+            <div class="mi-stat-item">
+              <div class="mi-stat-number">100%</div>
+              <div class="mi-stat-label">Funcional Offline</div>
+            </div>
+          </div>
+
+          <div class="mi-botones-accion">
+            <a href="#" class="mi-btn-primario">
+              <i class="fas fa-download"></i>
+              Descargar APK
+            </a>
+            <a href="#" class="mi-btn-secundario">
+              <i class="fab fa-github"></i>
+              Ver Código
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proceso de Desarrollo -->
+    <div class="mi-proceso-desarrollo">
+      <h3>Nuestro Proceso de Desarrollo</h3>
+      <div class="mi-proceso-timeline">
+        <div class="mi-timeline-item">
+          <div class="mi-timeline-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="mi-timeline-content">
+            <h4>1. Investigación</h4>
+            <p>Analizamos las necesidades reales de pequeños comerciantes y sus puntos de dolor actuales.</p>
+          </div>
+        </div>
+        <div class="mi-timeline-item">
+          <div class="mi-timeline-icon">
+            <i class="fas fa-pencil-ruler"></i>
+          </div>
+          <div class="mi-timeline-content">
+            <h4>2. Diseño UX/UI</h4>
+            <p>Creamos wireframes y prototipos enfocados en la simplicidad y eficiencia.</p>
+          </div>
+        </div>
+        <div class="mi-timeline-item">
+          <div class="mi-timeline-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="mi-timeline-content">
+            <h4>3. Arquitectura</h4>
+            <p>Diseñamos la base de datos SQLite y la estructura de la aplicación.</p>
+          </div>
+        </div>
+        <div class="mi-timeline-item">
+          <div class="mi-timeline-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="mi-timeline-content">
+            <h4>4. Desarrollo</h4>
+            <p>Implementamos cada funcionalidad con las mejores prácticas de Android.</p>
+          </div>
+        </div>
+        <div class="mi-timeline-item">
+          <div class="mi-timeline-icon">
+            <i class="fas fa-bug"></i>
+          </div>
+          <div class="mi-timeline-content">
+            <h4>5. Testing</h4>
+            <p>Pruebas exhaustivas en diferentes dispositivos y escenarios de uso.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Próximos Proyectos -->
+    <div class="mi-proximos-proyectos">
+      <h3>En Nuestro Roadmap</h3>
+      <div class="mi-proyectos-grid">
+        <div class="mi-proyecto-card">
+          <div class="mi-card-icon">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <h4>RestauApp</h4>
+          <p>Sistema de pedidos y gestión para restaurantes con integración de delivery</p>
+          <div class="mi-card-status">En Planificación</div>
+        </div>
+        <div class="mi-proyecto-card">
+          <div class="mi-card-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h4>EduManager</h4>
+          <p>Plataforma educativa para gestión de cursos, estudiantes y calificaciones</p>
+          <div class="mi-card-status">Diseño UX</div>
+        </div>
+        <div class="mi-proyecto-card">
+          <div class="mi-card-icon">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <h4>HealthTracker</h4>
+          <p>App de seguimiento médico con recordatorios y historial clínico</p>
+          <div class="mi-card-status">Investigación</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="mi-cta-final">
+      <div class="mi-cta-content">
+        <h3>¿Listo para digitalizar tu negocio?</h3>
+        <p>Creamos soluciones móviles personalizadas que impulsan el crecimiento de tu empresa</p>
+        <!-- Busca esta línea en la sección "Call to Action Final" -->
+        <a href="#slider-equipo" class="mi-cta-button" id="openContactModalBtn">
+          <i class="fas fa-rocket"></i>Iniciar Mi Proyecto
+        </a>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE INTERACTIVO CON IMAGEN PEQUEÑA Y MENÚ VISIBLE -->
+<div id="miShowcaseInteractivo" class="mi-showcase-modal">
+  <div class="mi-modal-contenido">
+    <span class="mi-cerrar-showcase" onclick="cerrarMiShowcase()">&times;</span>
+    
+    <div class="mi-showcase-header">
+      <h2>Mi Tienda Móvil</h2>
+      <p>Explora las funcionalidades paso a paso</p>
+    </div>
+
+    <div class="mi-showcase-navegacion">
+      <div class="mi-nav-item active" data-pantalla="dashboard">
+        <i class="fas fa-tachometer-alt"></i>
+        <span>Dashboard</span>
+      </div>
+      <div class="mi-nav-item" data-pantalla="inventario">
+        <i class="fas fa-boxes"></i>
+        <span>Inventario</span>
+      </div>
+      <div class="mi-nav-item" data-pantalla="ventas">
+        <i class="fas fa-cash-register"></i>
+        <span>Ventas</span>
+      </div>
+      <div class="mi-nav-item" data-pantalla="agregar">
+        <i class="fas fa-plus-circle"></i>
+        <span>Agregar</span>
+      </div>
+      <div class="mi-nav-item" data-pantalla="editar">
+        <i class="fas fa-edit"></i>
+        <span>Editar</span>
+      </div>
+      <div class="mi-nav-item" data-pantalla="reportes">
+        <i class="fas fa-chart-bar"></i>
+        <span>Reportes</span>
+      </div>
+    </div>
+
+    <div class="mi-showcase-contenido-principal">
+      <div class="mi-pantalla-info active" id="dashboard">
+        <div class="mi-imagen-showcase">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_dc23ba91.jpg-ZrW9UMPnwvZl1qMz2sAluzfEJduZff.jpeg" alt="Dashboard">
+        </div>
+        <div class="mi-info-showcase">
+          <h3>Dashboard Principal</h3>
+          <p>El centro de control de tu negocio. Aquí puedes ver un resumen completo de tu actividad diaria.</p>
+          <ul class="mi-caracteristicas-showcase">
+            <li><i class="fas fa-check"></i> Resumen de ventas del día</li>
+            <li><i class="fas fa-check"></i> Total de productos en inventario</li>
+            <li><i class="fas fa-check"></i> Última venta registrada</li>
+            <li><i class="fas fa-check"></i> Acceso rápido a todas las funciones</li>
+          </ul>
+          <div class="mi-beneficio-showcase">
+            <strong>Beneficio:</strong> Toma decisiones informadas con datos en tiempo real
+          </div>
+        </div>
+      </div>
+
+      <div class="mi-pantalla-info" id="inventario">
+        <div class="mi-imagen-showcase">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_31ca9541.jpg-62BWgIhwVhu5dgdZ5nqSBHsbBJiYuZ.jpeg" alt="Inventario">
+        </div>
+        <div class="mi-info-showcase">
+          <h3>Gestión de Inventario</h3>
+          <p>Controla todo tu inventario de manera eficiente con búsqueda inteligente.</p>
+          <ul class="mi-caracteristicas-showcase">
+            <li><i class="fas fa-check"></i> Búsqueda por ID o nombre</li>
+            <li><i class="fas fa-check"></i> Estado de disponibilidad</li>
+            <li><i class="fas fa-check"></i> Precios actualizados</li>
+            <li><i class="fas fa-check"></i> Cantidad en stock</li>
+          </ul>
+          <div class="mi-beneficio-showcase">
+            <strong>Beneficio:</strong> Nunca te quedes sin productos importantes
+          </div>
+        </div>
+      </div>
+
+      <div class="mi-pantalla-info" id="ventas">
+        <div class="mi-imagen-showcase">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_e78a6057.jpg-H8Smff0B2wfdoEs3709ufIuWK7wnsH.jpeg" alt="Ventas">
+        </div>
+        <div class="mi-info-showcase">
+          <h3>Registro de Ventas</h3>
+          <p>Registra ventas de forma rápida y automática con actualización del inventario.</p>
+          <ul class="mi-caracteristicas-showcase">
+            <li><i class="fas fa-check"></i> Registro rápido de ventas</li>
+            <li><i class="fas fa-check"></i> Descuento automático del inventario</li>
+            <li><i class="fas fa-check"></i> Historial de transacciones</li>
+            <li><i class="fas fa-check"></i> Cálculo automático de totales</li>
+          </ul>
+          <div class="mi-beneficio-showcase">
+            <strong>Beneficio:</strong> Ahorra tiempo y evita errores manuales
+          </div>
+        </div>
+      </div>
+
+      <div class="mi-pantalla-info" id="agregar">
+        <div class="mi-imagen-showcase">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_0292eebf.jpg-GZPanHc3Ih2crAyPNoAcE4aEpJfRXr.jpeg" alt="Agregar">
+        </div>
+        <div class="mi-info-showcase">
+          <h3>Agregar Productos</h3>
+          <p>Añade nuevos productos a tu inventario con un formulario simple e intuitivo.</p>
+          <ul class="mi-caracteristicas-showcase">
+            <li><i class="fas fa-check"></i> Formulario fácil de usar</li>
+            <li><i class="fas fa-check"></i> Validación de datos</li>
+            <li><i class="fas fa-check"></i> Asignación automática de ID</li>
+            <li><i class="fas fa-check"></i> Configuración de precios</li>
+          </ul>
+          <div class="mi-beneficio-showcase">
+            <strong>Beneficio:</strong> Expande tu catálogo sin complicaciones
+          </div>
+        </div>
+      </div>
+
+      <div class="mi-pantalla-info" id="editar">
+        <div class="mi-imagen-showcase">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-07-09%20a%20las%2020.28.19_53dd2d83.jpg-Bajfldum2PwKN0m9GTkNp7ztuFEB8N.jpeg" alt="Editar">
+        </div>
+        <div class="mi-info-showcase">
+          <h3>Editar Productos</h3>
+          <p>Modifica la información de tus productos existentes de manera sencilla.</p>
+          <ul class="mi-caracteristicas-showcase">
+            <li><i class="fas fa-check"></i> Edición rápida de datos</li>
+            <li><i class="fas fa-check"></i> Actualización de precios</li>
+            <li><i class="fas fa-check"></i> Modificación de cantidades</li>
+            <li><i class="fas fa-check"></i> Cambio de estado</li>
+          </ul>
+          <div class="mi-beneficio-showcase">
+            <strong>Beneficio:</strong> Mantén tu información siempre actualizada
+          </div>
+        </div>
+      </div>
+
+      <div class="mi-pantalla-info" id="reportes">
+        <div class="mi-imagen-showcase">
+          <img src="/images/captura-reportes.png" alt="Reportes">
+        </div>
+        <div class="mi-info-showcase">
+          <h3>Reportes Detallados</h3>
+          <p>Analiza el rendimiento de tu negocio con reportes completos y estadísticas.</p>
+          <ul class="mi-caracteristicas-showcase">
+            <li><i class="fas fa-check"></i> Estadísticas de ventas</li>
+            <li><i class="fas fa-check"></i> Productos más vendidos</li>
+            <li><i class="fas fa-check"></i> Análisis de rendimiento</li>
+            <li><i class="fas fa-check"></i> Exportación de datos</li>
+          </ul>
+          <div class="mi-beneficio-showcase">
+            <strong>Beneficio:</strong> Toma decisiones basadas en datos reales
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mi-showcase-controles">
+      <button class="mi-btn-anterior" onclick="anteriorMiPantalla()">
+        <i class="fas fa-chevron-left"></i> Anterior
+      </button>
+      <div class="mi-indicadores">
+        <span class="mi-indicador active"></span>
+        <span class="mi-indicador"></span>
+        <span class="mi-indicador"></span>
+        <span class="mi-indicador"></span>
+        <span class="mi-indicador"></span>
+        <span class="mi-indicador"></span>
+      </div>
+      <button class="mi-btn-siguiente" onclick="siguienteMiPantalla()">
+        Siguiente <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!-- MODAL DE CONTACTO -->
+<div id="contactModal" class="modal-overlay">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 class="modal-title">Inicia Tu Proyecto</h2>
+      <p class="modal-description">Cuéntanos sobre tu idea y nos pondremos en contacto contigo.</p>
+      <span class="modal-close-btn">&times;</span>
+    </div>
+    <form id="contactForm" class="modal-form">
+      <div class="form-group">
+        <label for="name">Nombre Completo</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" name="_replyto" placeholder="tu@ejemplo.com" required />
+      </div>
+      <div class="form-group">
+        <label for="phone">Número de Teléfono (Opcional)</label>
+        <input type="tel" id="phone" name="phone" placeholder="Ej: +52 123 456 7890" />
+      </div>
+      <div class="form-group">
+        <label for="projectType">Tipo de Proyecto</label>
+        <select id="projectType" name="projectType" required>
+          <option value="">Selecciona un tipo</option>
+          <option value="app-movil">App Móvil</option>
+          <option value="web">Desarrollo Web</option>
+          <option value="consultoria">Consultoría</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="description">Descripción del Proyecto</label>
+        <textarea id="description" name="message" placeholder="Cuéntanos brevemente sobre tu idea o necesidad..." required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">
+        Enviar Mensaje <i class="fas fa-paper-plane"></i>
+      </button>
+      <div id="formStatusMessage" class="form-status-message"></div>
+    </form>
+  </div>
+</div>
+
+<!-- SECCIÓN DE CONTACTO CON MAPA -->
+<section class="contacto-mapa-seccion" id="contacto">
+  <div class="content">
+    <div class="title"><span>Contáctanos</span></div>
+    
+    <div class="contacto-mapa-container">
+      <!-- Información de Contacto -->
+      <div class="info-contacto-lado">
+        <div class="contacto-header">
+          <h3>¡Hablemos de tu proyecto!</h3>
+          <p>Estamos listos para convertir tu idea en realidad</p>
+        </div>
+        
+        <div class="contacto-items">
+          <div class="contacto-item">
+            <div class="contacto-icono">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contacto-info">
+              <h4>Email</h4>
+              <p>Pixelapp78@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="contacto-item">
+            <div class="contacto-icono">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contacto-info">
+              <h4>Teléfono</h4>
+              <p>921 470 3287</p>
+            </div>
+          </div>
+          
+          <div class="contacto-item">
+            <div class="contacto-icono">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contacto-info">
+              <h4>Ubicación</h4>
+              <p>Xalapa, Veracruz</p>
+            </div>
+          </div>
+          
+          <div class="contacto-item">
+            <div class="contacto-icono">
+              <i class="fas fa-building"></i>
+            </div>
+            <div class="contacto-info">
+              <h4>Empresa</h4>
+              <p>Pixel App</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="horarios-atencion">
+          <h4><i class="fas fa-clock"></i> Horarios de Atención</h4>
+          <p><strong>Lunes - Viernes:</strong> 9:00 AM - 6:00 PM</p>
+          <p><strong>Sábados:</strong> 10:00 AM - 2:00 PM</p>
+          <p><strong>Domingos:</strong> Cerrado</p>
+        </div>
+      </div>
+      
+      <!-- Mapa -->
+      <div class="mapa-lado">
+        <div class="mapa-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.41144681283!2d-96.99047!3d19.544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db2e6e5b4e6b5b%3A0x5b4e6b5b4e6b5b5b!2sXalapa%2C%20Ver.!5e0!3m2!1ses!2smx!4v1642000000000!5m2!1ses!2smx"
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          <div class="mapa-overlay">
+            <div class="ubicacion-pin">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Estamos aquí</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nuevo título para los botones de publicidad -->
+        <h4 class="publicidad-titulo">Documentos de Interés</h4>
+        <p class="publicidad-subtitulo">Descarga nuestros materiales informativos</p>
+
+        <div class="botones-publicidad">
+          <a href="pdfs/PixelAppCartel.pdf" target="_blank" class="btn-publicidad">
+            <i class="fas fa-download"></i> Nuestro Cartel
+          </a>
+          <a href="pdfs/PixelAppTarjeta.pdf" target="_blank" class="btn-publicidad">
+            <i class="fas fa-download"></i> Nuestro Tarjeta 
+          </a>
+          <a href="pdfs/PixelAppTriptico.pdf" target="_blank" class="btn-publicidad">
+            <i class="fas fa-download"></i> Nuestro Triptico
+          </a>
+          <a href="pdfs/PixelAppLona.pdf" target="_blank" class="btn-publicidad">
+            <i class="fas fa-download"></i> Nuestra Lona
+          </a>
+        </div>
+      </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="text">
+      <span>Created by PixelApp | &copy; 2025 Todos los derechos reservados</span>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>

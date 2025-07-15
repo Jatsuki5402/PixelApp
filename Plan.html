@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan de Negocios - PixelApp</title>
+  <link rel="stylesheet" href="Plan.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navegación Superior Rediseñada -->
+  <nav class="plan-navbar">
+      <div class="plan-nav-container">
+          <div class="plan-logo">
+              <img src="img/logo-claro.png" alt="PixelApp Logo">
+              <span>PixelApp</span>
+          </div>
+      
+      <div class="plan-nav-info">
+          <div class="plan-nav-title">Documento Empresarial</div>
+          <div class="plan-nav-subtitle">Plan de Negocios 2025</div>
+      </div>
+      
+      <div class="plan-nav-progress">
+          <div class="plan-nav-progress-bar">
+              <div class="plan-nav-progress-fill"></div>
+          </div>
+          <span class="plan-nav-progress-text">0% Leído</span>
+      </div>
+      
+      <div class="plan-nav-actions">
+          <button class="plan-action-btn" onclick="window.print()">
+              <i class="fas fa-print"></i>
+              Imprimir
+          </button>
+          <button class="plan-action-btn" onclick="sharePlan()">
+              <i class="fas fa-share-alt"></i>
+              Compartir
+          </button>
+          <a href="index.html" class="plan-action-btn primary">
+              <i class="fas fa-home"></i>
+              Inicio
+          </a>
+      </div>
+  </div>
+</nav>
+
+  <!-- Sidebar de Navegación -->
+  <aside class="plan-sidebar">
+      <div class="plan-sidebar-content">
+          <h3>Contenido</h3>
+          <ul class="plan-nav-menu">
+              <li><a href="#resumen" data-section="resumen"><i class="fas fa-file-alt"></i> Resumen Ejecutivo</a></li>
+              <li><a href="#descripcion" data-section="descripcion"><i class="fas fa-building"></i> Descripción del Negocio</a></li>
+              <li><a href="#mercado" data-section="mercado"><i class="fas fa-chart-line"></i> Análisis de Mercado</a></li>
+              <li><a href="#directivo" data-section="directivo"><i class="fas fa-users"></i> Cuerpo Directivo</a></li>
+              <li><a href="#operaciones" data-section="operaciones"><i class="fas fa-cogs"></i> Operaciones</a></li>
+              <li><a href="#riesgos" data-section="riesgos"><i class="fas fa-exclamation-triangle"></i> Riesgos Críticos</a></li>
+              <li><a href="#financieras" data-section="financieras"><i class="fas fa-dollar-sign"></i> Proyecciones Financieras</a></li>
+              <li><a href="#apendice" data-section="apendice"><i class="fas fa-paperclip"></i> Apéndice</a></li>
+          </ul>
+          <div class="plan-progress-bar">
+              <div class="plan-progress-fill"></div>
+          </div>
+          <span class="plan-progress-text">0% Completado</span>
+      </div>
+  </aside>
+
+  <!-- Contenido Principal -->
+  <main class="plan-main-content">
+      <!-- Hero Section -->
+      <section class="plan-hero">
+          <div class="plan-hero-content">
+              <h1>Plan de Negocios</h1>
+              <h2>PixelApp</h2>
+              <p>Desarrollo de aplicaciones móviles personalizadas</p>
+              <div class="plan-hero-stats">
+                  <div class="plan-stat">
+                      <span class="plan-stat-number">$110,000</span>
+                      <span class="plan-stat-label">Inversión Inicial</span>
+                  </div>
+                  <div class="plan-stat">
+                      <span class="plan-stat-number">4</span>
+                      <span class="plan-stat-label">Socios Fundadores</span>
+                  </div>
+                  <div class="plan-stat">
+                      <span class="plan-stat-number">2025</span>
+                      <span class="plan-stat-label">Año de Inicio</span>
+                  </div>
+              </div>
+          </div>
+          <div class="plan-hero-visual">
+              <div class="plan-floating-card">
+                  <i class="fas fa-mobile-alt"></i>
+                  <span>Apps Móviles</span>
+              </div>
+              <div class="plan-floating-card">
+                  <i class="fas fa-code"></i>
+                  <span>Desarrollo</span>
+              </div>
+              <div class="plan-floating-card">
+                  <i class="fas fa-palette"></i>
+                  <span>Diseño UX/UI</span>
+              </div>
+          </div>
+      </section>
+
+      <!-- Sección 1: Resumen Ejecutivo -->
+      <section id="resumen" class="plan-section">
+          <div class="plan-section-header">
+              <div class="plan-section-number">01</div>
+              <h2>Resumen Ejecutivo</h2>
+              <button class="plan-expand-btn" data-target="resumen-content">
+                  <i class="fas fa-chevron-down"></i>
+              </button>
+          </div>
+          <div class="plan-section-content" id="resumen-content">
+              <div class="plan-content-grid">
+                  <div class="plan-text-content">
+                      <p><strong>PixelApp</strong> es una empresa en proceso de consolidación formal como Sociedad de Responsabilidad Limitada (S. de R.L.), dedicada al desarrollo de aplicaciones móviles personalizadas con un enfoque centrado en la experiencia del usuario (UX/UI), la calidad técnica y la cercanía con el cliente.</p>
+                      
+                      <div class="plan-highlight-box">
+                          <h4><i class="fas fa-lightbulb"></i> Modelo de Negocio</h4>
+                          <p>Digital y remoto, permitiendo operar de forma ágil sin infraestructura física, adaptándose a emprendedores, pequeñas empresas e instituciones locales.</p>
+                      </div>
+
+                      <div class="plan-tech-stack">
+                          <h4>Stack Tecnológico</h4>
+                          <div class="plan-tech-badges">
+                              <span class="plan-tech-badge">Kotlin</span>
+                              <span class="plan-tech-badge">Android Studio</span>
+                              <span class="plan-tech-badge">SQLite</span>
+                              <span class="plan-tech-badge">Figma</span>
+                              <span class="plan-tech-badge">Scrum</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="plan-visual-content">
+                      <div class="plan-methodology-card">
+                          <h4>Metodología Ágil</h4>
+                          <div class="plan-scrum-cycle">
+                              <div class="plan-cycle-step">
+                                  <i class="fas fa-search"></i>
+                                  <span>Análisis</span>
+                              </div>
+                              <div class="plan-cycle-step">
+                                  <i class="fas fa-pencil-ruler"></i>
+                                  <span>Diseño</span>
+                              </div>
+                              <div class="plan-cycle-step">
+                                  <i class="fas fa-code"></i>
+                                  <span>Desarrollo</span>
+                              </div>
+                              <div class="plan-cycle-step">
+                                  <i class="fas fa-rocket"></i>
+                                  <span>Entrega</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Sección 2: Descripción del Negocio -->
+      <section id="descripcion" class="plan-section">
+          <div class="plan-section-header">
+              <div class="plan-section-number">02</div>
+              <h2>Descripción del Negocio</h2>
+              <button class="plan-expand-btn" data-target="descripcion-content">
+                  <i class="fas fa-chevron-down"></i>
+              </button>
+          </div>
+          <div class="plan-section-content" id="descripcion-content">
+              <div class="plan-business-info">
+                  <div class="plan-info-cards">
+                      <div class="plan-info-card">
+                          <i class="fas fa-tag"></i>
+                          <h4>Nombre del Proyecto</h4>
+                          <p>PixelApp</p>
+                      </div>
+                      <div class="plan-info-card">
+                          <i class="fas fa-industry"></i>
+                          <h4>Sector Económico</h4>
+                          <p>Servicios digitales / Desarrollo de software</p>
+                      </div>
+                      <div class="plan-info-card">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <h4>Ubicación</h4>
+                          <p>Xalapa, Veracruz (modelo operativo remoto)</p>
+                      </div>
+                      <div class="plan-info-card">
+                          <i class="fas fa-balance-scale"></i>
+                          <h4>Régimen Jurídico</h4>
+                          <p>En proceso de constitución como S. de R.L.</p>
+                      </div>
+                  </div>
+
+                  <div class="plan-mission-vision">
+                      <div class="plan-mv-card">
+                          <h4><i class="fas fa-bullseye"></i> Propósito</h4>
+                          <p>Desarrollar aplicaciones móviles que ofrezcan soluciones prácticas y eficientes, adaptadas a las necesidades de cada cliente, impulsando la innovación tecnológica con un servicio cercano, confiable y de calidad.</p>
+                      </div>
+                      <div class="plan-mv-card">
+                          <h4><i class="fas fa-eye"></i> Visión a Mediano Plazo</h4>
+                          <p>Consolidarse como empresa líder en el sector, reconocida por crear soluciones móviles innovadoras, funcionales y accesibles, manteniéndose firme en el compromiso con la calidad y la mejora continua.</p>
+                      </div>
+                  </div>
+
+                  <div class="plan-differentiation">
+                      <h4>Diferenciación Competitiva</h4>
+                      <div class="plan-diff-points">
+                          <div class="plan-diff-point">
+                              <i class="fas fa-star"></i>
+                              <span>Soluciones desde cero, sin plantillas</span>
+                          </div>
+                          <div class="plan-diff-point">
+                              <i class="fas fa-tools"></i>
+                              <span>Tecnologías modernas y actualizadas</span>
+                          </div>
+                          <div class="plan-diff-point">
+                              <i class="fas fa-handshake"></i>
+                              <span>Atención personalizada y cercana</span>
+                          </div>
+                          <div class="plan-diff-point">
+                              <i class="fas fa-sync-alt"></i>
+                              <span>Metodología ágil Scrum</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Sección 3: Análisis de Mercado -->
+      <section id="mercado" class="plan-section">
+          <div class="plan-section-header">
+              <div class="plan-section-number">03</div>
+              <h2>Análisis de Mercado</h2>
+              <button class="plan-expand-btn" data-target="mercado-content">
+                  <i class="fas fa-chevron-down"></i>
+              </button>
+          </div>
+          <div class="plan-section-content" id="mercado-content">
+              <div class="plan-market-analysis">
+                  <div class="plan-market-trends">
+                      <h4>Tendencias del Mercado</h4>
+                      <div class="plan-trend-cards">
+                          <div class="plan-trend-card">
+                              <i class="fas fa-mobile-alt"></i>
+                              <h5>Crecimiento Móvil</h5>
+                              <p>Aumento acelerado en el uso de smartphones para compras, servicios y gestión empresarial</p>
+                          </div>
+                          <div class="plan-trend-card">
+                              <i class="fas fa-digital-tachograph"></i>
+                              <h5>Digitalización</h5>
+                              <p>PYMES e instituciones adoptan soluciones digitales para mejorar funcionamiento y atención</p>
+                          </div>
+                          <div class="plan-trend-card">
+                              <i class="fas fa-graduation-cap"></i>
+                              <h5>Educación Digital</h5>
+                              <p>Instituciones educativas requieren herramientas digitales personalizadas</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="plan-target-market">
+                      <h4>Mercado Meta</h4>
+                      <div class="plan-target-segments">
+                          <div class="plan-segment">
+                              <div class="plan-segment-icon">
+                                  <i class="fas fa-lightbulb"></i>
+                              </div>
+                              <h5>Emprendedores</h5>
+                              <p>Negocios locales que buscan soluciones accesibles y cercanas</p>
+                              <div class="plan-segment-examples">
+                                  <span>Cafeterías</span>
+                                  <span>Consultorios</span>
+                                  <span>Talleres</span>
+                              </div>
+                          </div>
+                          <div class="plan-segment">
+                              <div class="plan-segment-icon">
+                                  <i class="fas fa-building"></i>
+                              </div>
+                              <h5>PYMES</h5>
+                              <p>Empresas en proceso de transformación digital</p>
+                              <div class="plan-segment-examples">
+                                  <span>Comercios</span>
+                                  <span>Despachos</span>
+                                  <span>Gimnasios</span>
+                              </div>
+                          </div>
+                          <div class="plan-segment">
+                              <div class="plan-segment-icon">
+                                  <i class="fas fa-school"></i>
+                              </div>
+                              <h5>Instituciones</h5>
+                              <p>Centros educativos que requieren herramientas a medida</p>
+                              <div class="plan-segment-examples">
+                                  <span>Escuelas</span>
+                                  <span>Universidades</span>
+                                  <span>Centros de capacitación</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="plan-competitive-advantage">
+                      <h4>Ventaja Competitiva</h4>
+                      <div class="plan-advantage-comparison">
+                          <div class="plan-comparison-item">
+                              <h5>Competencia Tradicional</h5>
+                              <ul>
+                                  <li><i class="fas fa-times"></i> Soluciones genéricas con plantillas</li>
+                                  <li><i class="fas fa-times"></i> Precios bajos sin soporte posterior</li>
+                                  <li><i class="fas fa-times"></i> Atención impersonal</li>
+                              </ul>
+                          </div>
+                          <div class="plan-vs">VS</div>
+                          <div class="plan-comparison-item plan-pixelapp">
+                              <h5>PixelApp</h5>
+                              <ul>
+                                  <li><i class="fas fa-check"></i> Desarrollo desde cero personalizado</li>
+                                  <li><i class="fas fa-check"></i> Soporte continuo y acompañamiento</li>
+                                  <li><i class="fas fa-check"></i> Atención cercana y profesional</li>
+                                  <li><i class="fas fa-check"></i> Enfoque en UX/UI de calidad</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Sección 4: Cuerpo Directivo -->
+      <section id="directivo" class="plan-section">
+          <div class="plan-section-header">
+              <div class="plan-section-number">04</div>
+              <h2>Cuerpo Directivo</h2>
+              <button class="plan-expand-btn" data-target="directivo-content">
+                  <i class="fas fa-chevron-down"></i>
+              </button>
+          </div>
+          <div class="plan-section-content" id="directivo-content">
+              <div class="plan-team-intro">
+                  <p>PixelApp está conformada por un equipo de cuatro socios fundadores con roles clave en desarrollo, diseño, gestión y dirección técnica. Esta estructura compacta permite mantener una operación ágil con comunicación directa.</p>
+              </div>
+
+              <div class="plan-team-grid">
+                  <div class="plan-team-member">
+                      <div class="plan-member-avatar">
+                          <img src="img/user-2.jpg" alt="Hannia Citlalli">
+                          <div class="plan-member-role-badge">Desarrollo</div>
+                      </div>
+                      <div class="plan-member-info">
+                          <h4>Hannia Citlalli Ramírez Castillo</h4>
+                          <p class="plan-member-title">Cofundadora y Desarrolladora Móvil</p>
+                          <div class="plan-member-skills">
+                              <span>Kotlin</span>
+                              <span>Android Studio</span>
+                              <span>SQLite</span>
+                              <span>APIs</span>
+                          </div>
+                          <p class="plan-member-description">Responsable de la programación de aplicaciones nativas, integración de bases de datos y conexión con APIs externas.</p>
+                      </div>
+                  </div>
+
+                  <div class="plan-team-member">
+                      <div class="plan-member-avatar">
+                          <img src="img/user-3.jpg" alt="José Ignacio">
+                          <div class="plan-member-role-badge">CTO</div>
+                      </div>
+                      <div class="plan-member-info">
+                          <h4>José Ignacio Martínez Carabarín</h4>
+                          <p class="plan-member-title">Cofundador y CTO</p>
+                          <div class="plan-member-skills">
+                              <span>Arquitectura</span>
+                              <span>GitHub</span>
+                              <span>Seguridad</span>
+                              <span>Escalabilidad</span>
+                          </div>
+                          <p class="plan-member-description">Supervisa la arquitectura técnica, coordina herramientas de desarrollo y define estándares de calidad y rendimiento.</p>
+                      </div>
+                  </div>
+
+                  <div class="plan-team-member">
+                      <div class="plan-member-avatar">
+                          <img src="img/user-1.png" alt="Sofía Jatziri">
+                          <div class="plan-member-role-badge">UX/UI</div>
+                      </div>
+                      <div class="plan-member-info">
+                          <h4>Sofía Jatziri Rosales Ramos</h4>
+                          <p class="plan-member-title">Cofundadora y Diseñadora UX/UI</p>
+                          <div class="plan-member-skills">
+                              <span>Figma</span>
+                              <span>Adobe XD</span>
+                              <span>Prototipos</span>
+                              <span>UX Research</span>
+                          </div>
+                          <p class="plan-member-description">Encargada del diseño de interfaces funcionales, atractivas y accesibles, asegurando una experiencia de usuario profesional.</p>
+                      </div>
+                  </div>
+
+                  <div class="plan-team-member">
+                      <div class="plan-member-avatar">
+                          <img src="img/user-4.jpg" alt="Edmar Yael">
+                          <div class="plan-member-role-badge">Gestión</div>
+                      </div>
+                      <div class="plan-member-info">
+                          <h4>Edmar Yael Peña Díaz</h4>
+                          <p class="plan-member-title">Cofundador y Gestor de Documentación</p>
+                          <div class="plan-member-skills">
+                              <span>Trello</span>
+                              <span>Notion</span>
+                              <span>Documentación</span>
+                              <span>Atención al Cliente</span>
+                          </div>
+                          <p class="plan-member-description">Administra plataformas de organización, elabora documentación técnica y coordina la comunicación con clientes.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="plan-methodology-info">
+                  <h4>Metodología de Trabajo</h4>
+                  <div class="plan-scrum-info">
+                      <div class="plan-scrum-benefits">
+                          <div class="plan-benefit">
+                              <i class="fas fa-sync-alt"></i>
+                              <span>Sprints cortos con entregables constantes</span>
+                          </div>
+                          <div class="plan-benefit">
+                              <i class="fas fa-comments"></i>
+                              <span>Retroalimentación continua</span>
+                          </div>
+                          <div class="plan-benefit">
+                              <i class="fas fa-users-cog"></i>
+                              <span>Colaboración efectiva sin jerarquías rígidas</span>
+                          </div>
+                          <div class="plan-benefit">
+                              <i class="fas fa-target"></i>
+                              <span>Enfoque en responsabilidad compartida</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Sección 5: Operaciones -->
+      <section id="operaciones" class="plan-section">
+          <div class="plan-section-header">
+              <div class="plan-section-number">05</div>
+              <h2>Operaciones</h2>
+              <button class="plan-expand-btn" data-target="operaciones-content">
+                  <i class="fas fa-chevron-down"></i>
+              </button>
+          </div>
+          <div class="plan-section-content" id="operaciones-content">
+              <div class="plan-operations-flow">
+                  <h4>Flujo Operativo</h4>
+                  <div class="plan-process-timeline">
+                      <div class="plan-process-step">
+                          <div class="plan-step-number">1</div>
+                          <div class="plan-step-content">
+                              <h5>Levantamiento de Requerimientos</h5>
+                              <p>Reunión inicial para identificar objetivos, funcionalidades deseadas y características del negocio del cliente</p>
+                              <div class="plan-step-tools">
+                                  <span><i class="fas fa-video"></i> Google Meet</span>
+                                  <span><i class="fas fa-file-alt"></i> Documentación</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="plan-process-step">
+                          <div class="plan-step-number">2</div>
+                          <div class="plan-step-content">
+                              <h5>Diseño UX/UI</h5>
+                              <p>Desarrollo de interfaces, prototipos funcionales y planificación de tareas técnicas</p>
+                              <div class="plan-step-tools">
+                                  <span><i class="fas fa-palette"></i> Figma</span>
+                                  <span><i class="fas fa-mobile-alt"></i> Prototipos</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="plan-process-step">
+                          <div class="plan-step-number">3</div>
+                          <div class="plan-step-content">
+                              <h5>Desarrollo</h5>
+                              <p>Programación en Kotlin con Android Studio, implementación de bases de datos SQLite</p>
+                              <div class="plan-step-tools">
+                                  <span><i class="fas fa-code"></i> Kotlin</span>
+                                  <span><i class="fas fa-database"></i> SQLite</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="plan-process-step">
+                          <div class="plan-step-number">4</div>
+                          <div class="plan-step-content">
+                              <h5>Pruebas y Validación</h5>
+                              <p>Pruebas funcionales, validación de interfaces y revisión técnica en distintas etapas</p>
+                              <div class="plan-step-tools">
+                                  <span><i class="fas fa-bug"></i> Testing</span>
+                                  <span><i class="fas fa-check-circle"></i> QA</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="plan-process-step">
+                          <div class="plan-step-number">5</div>
+                          <div class="plan-step-content">
+                              <h5>Entrega y Soporte</h5>
+                              <p>Entrega del APK con documentación, soporte técnico inicial y mantenimiento</p>
+                              <div class="plan-step-tools">
+                                  <span><i class="fas fa-download"></i> APK</span>
+                                  <span><i class="fas fa-life-ring"></i> Soporte</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="plan-tools-platforms">
+                  <h4>Herramientas y Plataformas</h4>
+                  <div class="plan-tools-grid">
+                      <div class="plan-tool-category">
+                          <h5><i class="fas fa-code"></i> Desarrollo</h5>
+                          <div class="plan-tools-list">
+                              <span>Android Studio</span>
+                              <span>Kotlin</span>
+                              <span>SQLite</span>
+                              <span>GitHub</span>
+                          </div>
+                      </div>
+                      <div class="plan-tool-category">
+                          <h5><i class="fas fa-palette"></i> Diseño</h5>
+                          <div class="plan-tools-list">
+                              <span>Figma</span>
+                              <span>Adobe XD</span>
+                              <span>Material Design</span>
+                          </div>
+                      </div>
+                      <div class="plan-tool-category">
+                          <h5><i class="fas fa-tasks"></i> Gestión</h5>
+                          <div class="plan-tools-list">
+                              <span>Notion</span>
+                              <span>Trello</span>
+                              <span>Google Workspace</span>
+                          </div>
+                      </div>
+                      <div class="plan-tool-category">
+                          <h5><i class="fas fa-comments"></i> Comunicación</h5>
+                          <div class="plan-tools-list">
+                              <span>Google Meet</span>
+                              <span>WhatsApp Business</span>
+                              <span>Correo profesional</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="plan-remote-model">
+                  <h4>Modelo Remoto</h4>
+                  <div class="plan-remote-benefits">
+                      <div class="plan-remote-benefit">
+                          <i class="fas fa-dollar-sign"></i>
+                          <h5>Reducción de Costos</h5>
+                          <p>Sin necesidad de oficina física, menores gastos fijos</p>
+                      </div>
+                      <div class="plan-remote-benefit">
+                          <i class="fas fa-clock"></i>
+                          <h5>Flexibilidad Operativa</h5>
+                          <p>Horarios adaptables y mayor productividad</p>
+                      </div>
+                      <div class="plan-remote-benefit">
+                          <i class="fas fa-headset"></i>
+                          <h5>Atención Continua</h5>
+                          <p>Soporte a través de medios digitales</p>
+                      </div>
+                      <div class="plan-remote-benefit">
+                          <i class="fas fa-expand-arrows-alt"></i>
+                          <h5>Escalabilidad</h5>
+                          <p>Capacidad de integrar colaboradores externos</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Sección 6: Riesgos Críticos -->
+      <section id="riesgos" class="plan-section">
+          <div class="plan-section-header">
+              <div class="plan-section-number">06</div>
+              <h2>Riesgos Críticos</h2>
+              <button class="plan-expand-btn" data-target="riesgos-content">
+                  <i class="fas fa-chevron-down"></i>
+              </button>
+          </div>
+          <div class="plan-section-content" id="riesgos-content">
+              <div class="plan-risks-overview">
+                  <p>Como empresa en etapa de crecimiento con modelo operativo digital, PixelApp reconoce diversos riesgos que requieren estrategias de gestión adecuadas para garantizar la continuidad del negocio.</p>
+              </div>
+
+              <div class="plan-risks-categories">
+                  <div class="plan-risk-category">
+                      <h4><i class="fas fa-home"></i> Riesgos Internos</h4>
+                      <div class="plan-risks-list">
+                          <div class="plan-risk-item">
+                              <div class="plan-risk-icon">
+                                  <i class="fas fa-wifi"></i>
+                              </div>
+                              <div class="plan-risk-content">
+                                  <h5>Dependencia Tecnológica</h5>
+                                  <p>Fallas en conectividad o equipos personales pueden interrumpir la productividad</p>
+                                  <div class="plan-mitigation">
+                                      <strong>Mitigación:</strong> Respaldo de equipos y conexiones alternativas
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="plan-risk-item">
+                              <div class="plan-risk-icon">
+                                  <i class="fas fa-tachometer-alt"></i>
+                              </div>
+                              <div class="plan-risk-content">
+                                  <h5>Sobrecarga Operativa</h5>
+                                  <p>Aumento repentino de demanda sin expansión proporcional del equipo</p>
+                                  <div class="plan-mitigation">
+                                      <strong>Mitigación:</strong> Escalamiento controlado con colaboradores externos
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="plan-risk-item">
+                              <div class="plan-risk-icon">
+                                  <i class="fas fa-database"></i>
+                              </div>
+                              <div class="plan-risk-content">
+                                  <h5>Pérdida de Información</h5>
+                                  <p>Errores humanos o falta de respaldo pueden comprometer el flujo de trabajo</p>
+                                  <div class="plan-mitigation">
+                                      <strong>Mitigación:</strong> Respaldo constante en Google Drive y GitHub
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="plan-risk-item">
+                              <div class="plan-risk-icon">
+                                  <i class="fas fa-graduation-cap"></i>
+                              </div>
+                              <div class="plan-risk-content">
+                                  <h5>Desactualización Técnica</h5>
+                                  <p>El avance tecnológico requiere aprendizaje continuo para mantener competitividad</p>
+                                  <div class="plan-mitigation">
+                                      <strong>Mitigación:</strong> Capacitación continua y documentación interna
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="plan-risk-category">
+                      <h4><i class="fas fa-globe"></i> Riesgos Externos</h4>
+                      <div class="plan-risks-list">
+                          <div class="plan-risk-item">
+                              <div class="plan-risk-icon">
+                                  <i class="fas fa-users"></i>
+                              </div>
+                              <div class="plan-risk-content">
+                                  <h5>Competencia Desleal</h5>
+                                  <p>Freelancers o empresas con precios bajos sin garantizar calidad</p>
+                                  <div class="plan-mitigation">
+                                      <strong>Mitigación:</strong> Diferenciación por calidad y atención personalizada
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="plan-risk-item">
+                              <div class="plan-risk-icon">
+                                  <i class="fas fa-chart-line"></i>
+                              </div>
+                              <div class="plan-risk-content">
+                                  <h5>Cambios en Tendencias</h5>
+                                  <p>Menor demanda de apps personalizadas o aparición de plataformas automatizadas</p>
+                                  <div class="plan-mitigation">
+                                      <strong>Mitigación:</strong> Adaptación continua y diversificación de servicios
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="plan-risk-item">
+                              <div class="plan-risk-icon">
+                                  <i class="fas fa-chart-pie"></i>
+                              </div>
+                              <div class="plan-risk-content">
+                                  <h5>Factores Macroeconómicos</h5>
+                                  <p>Inflación, aumento de costos tecnológicos o disminución del poder adquisitivo</p>
+                                  <div class="plan-mitigation">
+                                      <strong>Mitigación:</strong> Precios flexibles y enfoque en valor agregado
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="plan-contingency-plans">
+                  <h4>Planes de Contingencia</h4>
+                  <div class="plan-contingency-grid">
+                      <div class="plan-contingency-item">
+                          <i class="fas fa-shield-alt"></i>
+                          <h5>Protección de Datos</h5>
+                          <p>Respaldo automático en múltiples plataformas cloud</p>
+                      </div>
+                      <div class="plan-contingency-item">
+                          <i class="fas fa-tools"></i>
+                          <h5>Mantenimiento Preventivo</h5>
+                          <p>Revisión técnica periódica de equipos y herramientas</p>
+                      </div>
+                      <div class="plan-contingency-item">
+                          <i class="fas fa-calendar-alt"></i>
+                          <h5>Gestión de Proyectos</h5>
+                          <p>Priorización y calendarización usando metodologías ágiles</p>
+                      </div>
+                      <div class="plan-contingency-item">
+                          <i class="fas fa-user-plus"></i>
+                          <h5>Escalamiento Flexible</h5>
+                          <p>Red de colaboradores externos para alta demanda</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="plan-future-insurance">
+                  <h4>Previsión de Seguros</h4>
+                  <div class="plan-insurance-plans">
+                      <div class="plan-insurance-item">
+                          <i class="fas fa-laptop"></i>
+                          <span>Seguro para equipos de cómputo ante pérdidas o daños</span>
+                      </div>
+                      <div class="plan-insurance-item">
+                          <i class="fas fa-balance-scale"></i>
+                          <span>Seguro de responsabilidad civil profesional</span>
+                      </div>
+                  </div>
+                  <p class="plan-insurance-note">*A implementar una vez consolidada la formalización jurídica</p>
+              </div>
+          </div>
+      </section>
+
+      <!-- Sección 7: Proyecciones Financieras -->
+      <section id="financieras" class="plan-section">
+          <div class="plan-section-header">
+              <div class="plan-section-number">07</div>
+              <h2>Proyecciones Financieras</h2>
+              <button class="plan-expand-btn" data-target="financieras-content">
+                  <i class="fas fa-chevron-down"></i>
+              </button>
+          </div>
+          <div class="plan-section-content" id="financieras-content">
+              <div class="plan-financial-overview">
+                  <div class="plan-financial-highlight">
+                      <h4>Inversión Inicial Estimada</h4>
+                      <div class="plan-investment-amount">$110,000 MXN</div>
+                      <p>Destinada a equipo tecnológico, herramientas digitales, servicios de conectividad y licencias</p>
+                  </div>
+              </div>
+
+              <div class="plan-financial-breakdown">
+                  <h4>Desglose de Inversión Inicial</h4>
+                  <div class="plan-investment-chart">
+                      <div class="plan-chart-container">
+                          <div class="plan-chart-item" style="--percentage: 72.3%">
+                              <div class="plan-chart-bar">
+                                  <span class="plan-chart-label">Equipos y Dispositivos</span>
+                                  <span class="plan-chart-value">$79,500</span>
+                              </div>
+                          </div>
+                          <div class="plan-chart-item" style="--percentage: 21.8%">
+                              <div class="plan-chart-bar">
+                                  <span class="plan-chart-label">Conectividad y Herramientas</span>
+                                  <span class="plan-chart-value">$24,000</span>
+                              </div>
+                          </div>
+                          <div class="plan-chart-item" style="--percentage: 5.9%">
+                              <div class="plan-chart-bar">
+                                  <span class="plan-chart-label">Servicios Digitales y Licencias</span>
+                                  <span class="plan-chart-value">$6,000</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="plan-operational-costs">
+                  <h4>Costos Operativos Anuales</h4>
+                  <div class="plan-costs-grid">
+      <div class="plan-cost-item">
+          <i class="fas fa-laptop-code"></i>
+          <div class="plan-cost-details">
+              <h5>Software y licencias</h5>
+              <span class="plan-cost-amount">$6,000</span>
+          </div>
+      </div>
+      <div class="plan-cost-item">
+          <i class="fas fa-globe"></i>
+          <div class="plan-cost-details">
+              <h5>Dominio, hosting y correo profesional</h5>
+              <span class="plan-cost-amount">$1,200</span>
+          </div>
+      </div>
+      <div class="plan-cost-item">
+          <i class="fas fa-bullhorn"></i>
+          <div class="plan-cost-details">
+              <h5>Publicidad digital y difusión</h5>
+              <span class="plan-cost-amount">$5,000</span>
+          </div>
+      </div>
+      <div class="plan-cost-item">
+          <i class="fas fa-wifi"></i>
+          <div class="plan-cost-details">
+              <h5>Conectividad y servicios remotos</h5>
+              <span class="plan-cost-amount">$6,000</span>
+          </div>
+      </div>
+  </div>
+  <div class="plan-total-costs">
+      <strong>Total Anual: $18,200 MXN</strong>
+  </div>
+  </div>
+
+  <div class="plan-pricing-policy">
+      <h4>Política de Precios</h4>
+      <p>PixelApp cotiza el desarrollo de cada aplicación con base en su nivel de complejidad:</p>
+      <ul class="plan-price-list">
+          <li><i class="fas fa-mobile-alt"></i> Apps básicas: <strong>$15,000 a $25,000 MXN</strong></li>
+          <li><i class="fas fa-tablet-alt"></i> Apps intermedias: <strong>$25,000 a $45,000 MXN</strong></li>
+          <li><i class="fas fa-desktop"></i> Apps avanzadas o empresariales: <strong>$45,000 a $80,000+ MXN</strong></li>
+      </ul>
+      <p class="plan-pricing-note">Los servicios adicionales como mantenimiento, rediseño o integración con paneles web pueden cotizarse por separado, según los requerimientos del cliente. Este volumen representa una fase inicial de posicionamiento, donde la prioridad es construir reputación, generar portafolio y establecer relaciones comerciales duraderas.</p>
+  </div>
+
+  <div class="plan-revenue-table-container">
+      <h4>Proyección de Ingresos y Utilidad Neta</h4>
+      <table class="plan-financial-table">
+          <thead>
+              <tr>
+                  <th>Año</th>
+                  <th>Proyectos</th>
+                  <th>Precio promedio</th>
+                  <th>Ingresos estimados</th>
+                  <th>Costos operativos</th>
+                  <th>Utilidad neta</th>
+                  <th>Margen neto</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Año 1</td>
+                  <td>5</td>
+                  <td>$30,000</td>
+                  <td class="plan-table-number">$150,000 MXN</td>
+                  <td class="plan-table-number">$18,200 MXN</td>
+                  <td class="plan-table-number">$131,800 MXN</td>
+                  <td>87.9%</td>
+              </tr>
+              <tr>
+                  <td>Año 2</td>
+                  <td>6</td>
+                  <td>$35,000</td>
+                  <td class="plan-table-number">$210,000 MXN</td>
+                  <td class="plan-table-number">$18,200 MXN</td>
+                  <td class="plan-table-number">$191,800 MXN</td>
+                  <td>91.6%</td>
+              </tr>
+              <tr>
+                  <td>Año 3</td>
+                  <td>7</td>
+                  <td>$40,000</td>
+                  <td class="plan-table-number">$280,000 MXN</td>
+                  <td class="plan-table-number">$18,200 MXN</td>
+                  <td class="plan-table-number">$261,800 MXN</td>
+                  <td>93.5%</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+
+  <div class="plan-break-even">
+      <h4>Punto de Equilibrio y Rentabilidad</h4>
+      <div class="plan-break-even-info">
+          <p>El punto de equilibrio se alcanza con la realización de entre 2 y 3 proyectos anuales, dependiendo de su complejidad y cotización. Esto demuestra que el negocio puede sostener su operación con un número reducido de ventas al año, gracias a su bajo costo fijo y estructura operativa optimizada.</p>
+          <div class="plan-profitability-factors">
+              <h5>Factores de Rentabilidad</h5>
+              <div class="plan-factors-list">
+                  <div class="plan-factor">
+                      <i class="fas fa-check"></i>
+                      <span>Inversión inicial no recurrente</span>
+                  </div>
+                  <div class="plan-factor">
+                      <i class="fas fa-check"></i>
+                      <span>Costos operativos bajos (modelo remoto)</span>
+                  </div>
+                  <div class="plan-factor">
+                      <i class="fas fa-check"></i>
+                      <span>Crecimiento de cartera de clientes</span>
+                  </div>
+                  <div class="plan-factor">
+                      <i class="fas fa-check"></i>
+                      <span>Mejoras en procesos de ventas y marketing</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+          </div>
+      </section>
+
+      <!-- Sección 8: Apéndice -->
+      <section id="apendice" class="plan-section">
+          <div class="plan-section-header">
+              <div class="plan-section-number">08</div>
+              <h2>Apéndice</h2>
+              <button class="plan-expand-btn" data-target="apendice-content">
+                  <i class="fas fa-chevron-down"></i>
+              </button>
+          </div>
+          <div class="plan-section-content" id="apendice-content">
+              <div class="plan-appendix-intro">
+                  <p>El presente apéndice reúne materiales, documentos y elementos de respaldo que complementan la información desarrollada en este plan de negocios, aportando evidencia adicional sobre la viabilidad y proyección de PixelApp.</p>
+              </div>
+
+              <div class="plan-appendix-sections">
+                  <div class="plan-appendix-item">
+                      <div class="plan-appendix-icon">
+                          <i class="fas fa-chart-pie"></i>
+                      </div>
+                      <div class="plan-appendix-content">
+                          <h4>Análisis FODA Completo</h4>
+                          <p>Incluye fortalezas, oportunidades, debilidades y amenazas con estrategias específicas para cada componente</p>
+                          <div class="plan-foda-preview">
+                              <div class="plan-foda-quadrant">
+                                  <h5>Fortalezas</h5>
+                                  <ul>
+                                      <li>Equipo multidisciplinario</li>
+                                      <li>Metodología ágil</li>
+                                      <li>Desarrollo personalizado</li>
+                                  </ul>
+                              </div>
+                              <div class="plan-foda-quadrant">
+                                  <h5>Oportunidades</h5>
+                                  <ul>
+                                      <li>Mercado en crecimiento</li>
+                                      <li>Digitalización PYMES</li>
+                                      <li>Nicho local desatendido</li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="plan-appendix-item">
+                      <div class="plan-appendix-icon">
+                          <i class="fas fa-sitemap"></i>
+                      </div>
+                      <div class="plan-appendix-content">
+                          <h4>Organigramas Funcionales</h4>
+                          <p>Estructura por puestos y departamentos, distribución de funciones entre integrantes</p>
+                          <div class="plan-org-chart">
+                              <div class="plan-org-level">
+                                  <div class="plan-org-box">Dirección General</div>
+                              </div>
+                              <div class="plan-org-level">
+                                  <div class="plan-org-box">CTO</div>
+                                  <div class="plan-org-box">UX/UI</div>
+                                  <div class="plan-org-box">Desarrollo</div>
+                                  <div class="plan-org-box">Gestión</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="plan-appendix-item">
+                      <div class="plan-appendix-icon">
+                          <i class="fas fa-table"></i>
+                      </div>
+                      <div class="plan-appendix-content">
+                          <h4>Proyecciones Financieras Detalladas</h4>
+                          <p>Estimaciones completas del primer año, punto de equilibrio, costos operativos y márgenes de rentabilidad</p>
+                          <div class="plan-financial-summary">
+      <div class="plan-summary-item">
+          <span>Inversión Inicial:</span>
+          <strong>$110,000 MXN</strong>
+      </div>
+      <div class="plan-summary-item">
+          <span>Costos Anuales:</span>
+          <strong>$18,200 MXN</strong>
+      </div>
+      <div class="plan-summary-item">
+          <span>Ingresos Proyectados (Año 1):</span>
+          <strong>$150,000 MXN</strong>
+      </div>
+  </div>
+                      </div>
+                  </div>
+
+                  <div class="plan-appendix-item">
+                      <div class="plan-appendix-icon">
+                          <i class="fas fa-shield-alt"></i>
+                      </div>
+                      <div class="plan-appendix-content">
+                          <h4>Estrategias de Mitigación de Riesgos</h4>
+                          <p>Acciones planificadas para riesgos internos y externos, planes de contingencia detallados</p>
+                          <div class="plan-risk-strategies">
+                              <div class="plan-strategy">
+                                  <i class="fas fa-database"></i>
+                                  <span>Respaldo automático de información</span>
+                              </div>
+                              <div class="plan-strategy">
+                                  <i class="fas fa-users-cog"></i>
+                                  <span>Red de colaboradores externos</span>
+                              </div>
+                              <div class="plan-strategy">
+                                  <i class="fas fa-graduation-cap"></i>
+                                  <span>Capacitación continua del equipo</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="plan-appendix-item">
+                      <div class="plan-appendix-icon">
+                          <i class="fas fa-tools"></i>
+                      </div>
+                      <div class="plan-appendix-content">
+                          <h4>Herramientas y Plataformas</h4>
+                          <p>Lista completa de tecnologías empleadas para desarrollo, diseño, documentación y operación</p>
+                          <div class="plan-tools-complete">
+                              <div class="plan-tool-group">
+                                  <h5>Diseño</h5>
+                                  <div class="plan-tool-tags">
+                                      <span>Figma</span>
+                                      <span>Adobe XD</span>
+                                  </div>
+                              </div>
+                              <div class="plan-tool-group">
+                                  <h5>Desarrollo</h5>
+                                  <div class="plan-tool-tags">
+                                      <span>Android Studio</span>
+                                      <span>Kotlin</span>
+                                      <span>SQLite</span>
+                                      <span>GitHub</span>
+                                  </div>
+                              </div>
+                              <div class="plan-tool-group">
+                                  <h5>Gestión</h5>
+                                  <div class="plan-tool-tags">
+                                      <span>Trello</span>
+                                      <span>Notion</span>
+                                      <span>Google Workspace</span>
+                                  </div>
+                              </div>
+                              <div class="plan-tool-group">
+                                  <h5>Comunicación</h5>
+                                  <div class="plan-tool-tags">
+                                      <span>Google Meet</span>
+                                      <span>WhatsApp Business</span>
+                                      <span>Correo profesional</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="plan-appendix-footer">
+                  <div class="plan-document-info">
+                      <h4>Información del Documento</h4>
+                      <div class="plan-doc-details">
+                          <div class="plan-doc-item">
+                              <i class="fas fa-calendar"></i>
+                              <span>Fecha de elaboración: Enero 2025</span>
+                          </div>
+                          <div class="plan-doc-item">
+                              <i class="fas fa-file-alt"></i>
+                              <span>Versión: 1.0</span>
+                          </div>
+                          <div class="plan-doc-item">
+                              <i class="fas fa-users"></i>
+                              <span>Elaborado por: Equipo PixelApp</span>
+                          </div>
+                          <div class="plan-doc-item">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Ubicación: Xalapa, Veracruz, México</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Footer del Plan -->
+      <footer class="plan-footer">
+          <div class="plan-footer-content">
+              <div class="plan-footer-logo">
+                  <img src="img/logo-claro.png" alt="PixelApp">
+                  <span>PixelApp - Plan de Negocios 2025</span>
+              </div>
+              <div class="plan-footer-info">
+                  <p>"Diseñamos lo que tu mente imagina"</p>
+                  <p>Desarrollo de aplicaciones móviles personalizadas</p>
+              </div>
+              <a href="index.html" class="plan-footer-back">
+                  <i class="fas fa-home"></i>
+                  Volver al Inicio
+              </a>
+          </div>
+      </footer>
+  </main>
+
+  <!-- Botón de scroll to top -->
+  <button class="plan-scroll-top" id="scrollTop">
+      <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="Plan.js"></script>
+</body>
+</html>
